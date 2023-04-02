@@ -12,7 +12,7 @@ var letterCombinations = function (digits) {
   for (let i of digits) {
     for (let j in ht) {
       if (i == j) {
-        console.log(ht[j]);
+        console.log(i);
       }
     }
   }
